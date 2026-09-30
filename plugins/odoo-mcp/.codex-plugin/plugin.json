@@ -2,5 +2,24 @@
   "name": "odoo-mcp",
   "version": "0.1.0",
   "description": "Read-only Odoo tasks for Codex, through the MCP Server for Odoo add-on from Mithahara.",
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "author": {
+    "name": "Mithahara",
+    "url": "https://mithahara.com"
+  },
+  "homepage": "https://github.com/Mithahara/odoo-codex-plugin",
+  "interface": {
+    "displayName": "Odoo (read-only)",
+    "shortDescription": "Ask Codex about your Odoo data, read-only",
+    "longDescription": "Three read-only skills that run through the MCP Server for Odoo add-on from Mithahara: overdue invoices, record history, and who can see a model. You point Codex at your own Odoo in config.toml; nothing is written.",
+    "developerName": "Mithahara",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://github.com/Mithahara/odoo-codex-plugin",
+    "defaultPrompt": [
+      "Which customer invoices are overdue in Odoo?"
+    ]
+  }
 }
