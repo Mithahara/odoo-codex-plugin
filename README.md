@@ -2,7 +2,11 @@
 
 Codex skills for [MCP Server for Odoo](https://apps.odoo.com/apps/modules/20.0/mh_mcp_server), an Odoo add-on from Mithahara. The add-on is the paid part and is required: this plugin only adds read-only skills that call its tools.
 
-Skills: `find-overdue-invoices`, `who-can-see-model`, `record-history`. They use only `odoo_search`, `odoo_read` and `odoo_fields`, and each works only on models your MCP profile allows.
+Skills: `find-overdue-invoices`, `who-can-see-model`, `record-history`. They use only `odoo_search`, `odoo_read` and `odoo_fields`, and each works only on models your MCP profile allows:
+
+- `find-overdue-invoices`: `account.move`
+- `record-history`: `mail.message`
+- `who-can-see-model`: `ir.access` on Odoo 20, `ir.model.access` and `ir.rule` on Odoo 19. Access rules are admin data, so the profile's Odoo user must be in the Access Rights group.
 
 ## Install
 
