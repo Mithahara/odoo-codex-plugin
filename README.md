@@ -29,4 +29,4 @@ bearer_token_env_var = "ODOO_MCP_KEY"
 export ODOO_MCP_KEY=...   # the odoo.mcp API key
 ```
 
-Tested with Codex CLI 0.155, all three skills end to end against Odoo 19 and Odoo 20. The Codex desktop app itself has not been opened (it is macOS and Windows only); its app-server, which it uses to list and read plugins, lists the plugin, its card metadata and all three skills. Support: support@mithahara.com
+Tested with Codex CLI 0.155, all three skills end to end against Odoo 19 and Odoo 20. The Codex desktop app (macOS) lists the plugin as "Odoo (read-only)", with its description, and lets you switch it on. Running the skills from the desktop app has not been tested. Support: support@mithahara.com
