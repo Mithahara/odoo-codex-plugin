@@ -1,0 +1,6 @@
+{
+  "name": "odoo-mcp",
+  "version": "0.1.0",
+  "description": "Read-only Odoo tasks for Codex, through the MCP Server for Odoo add-on from Mithahara.",
+  "skills": "./skills/"
+}
